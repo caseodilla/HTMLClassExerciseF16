@@ -1,41 +1,41 @@
-*{
-    font-family: Roboto, sans-serif;
+* {
+  font-family: Roboto,sans-serif;
 }
 
 img.logo {
-    float: left;
+  float: left;
 }
 
 h1.title {
-    font-size: 2em;
-    font-style: italic;
-    color: orange;
-    text-shadow: 2px 2px #000;
+  color: orange;
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 2px 2px #000;
 }
 
 h2::first-letter {
-    font-size: 1.8em;
-    font-weight: bold;
+  font-size: 1.8em;
+  font-weight: 700;
 }
 
 h3 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 a {
-    font-weight: bold;
-    color: orange;
+  color: orange;
+  font-weight: 700;
 }
 
 a:hover {
-    color: green;
+  color: green;
 }
 
 li {
-    line-height: 1.6em;
+  line-height: 1.6em;
 }
 
-footer p {
-    font-size: 0.8em;
-    text-align: center;
+footer {
+  font-size: .8em;
+  text-align: center;
 }
