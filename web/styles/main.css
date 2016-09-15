@@ -1,0 +1,41 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+img.logo {
+    float: left;
+}
+
+h1.title {
+    font-size: 2em;
+    font-style: italic;
+    color: orange;
+    text-shadow: 2px 2px #000;
+}
+
+h2::first-letter {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+a {
+    font-weight: bold;
+    color: orange;
+}
+
+a:hover {
+    color: green;
+}
+
+li {
+    line-height: 1.6em;
+}
+
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
