@@ -2,8 +2,11 @@
   font-family: Roboto,sans-serif;
 }
 
+/* Header */
+
 img.logo {
   float: left;
+  margin: 5px 20px;
 }
 
 h1.title {
@@ -12,6 +15,8 @@ h1.title {
   font-style: italic;
   text-shadow: 2px 2px #000;
 }
+
+/* Body */
 
 h2::first-letter {
   font-size: 1.8em;
@@ -34,6 +39,8 @@ a:hover {
 li {
   line-height: 1.6em;
 }
+
+/* Footer */
 
 footer {
   font-size: .8em;
