@@ -12,7 +12,6 @@ html {
 /* Header */
 
 header {
-  border-bottom: 1px solid #000;
   background-color: orange;
   background: rgba(255,255,255,1);
   background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,165,0,1) 75%, rgba(0,0,0,1) 100%);
@@ -21,8 +20,9 @@ header {
   background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,165,0,1) 75%, rgba(0,0,0,1) 100%);
   background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,165,0,1) 75%, rgba(0,0,0,1) 100%);
   background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,165,0,1) 75%, rgba(0,0,0,1) 100%);
-  padding: 15px 0;
+  border-bottom: 1px solid #000;
   margin: 0;
+  padding: 15px 0;
 }
 
 img.logo {
