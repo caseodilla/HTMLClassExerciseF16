@@ -83,12 +83,58 @@ a:hover {
   color: green;
 }
 
-ul {
-  margin: 10px 0;
+/* Horizontal Nav Bar */
+
+nav.topbar {
+  height: 2em;
+  margin: 0 0 10px;
+}
+nav.topbar ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-li {
+nav.topbar li {
+  background-color: #000;
+  float: left;
+  line-height: 2em;
+  text-align: center;
+  width: 20%;
+}
+
+nav.topbar li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+nav.topbar a.active {
+  color: orange;
+}
+
+/* Vertical Nav Bar */
+
+nav.sidebar ul {
+  list-style-type: none;
+  margin: 0 15px 0 10px;
+  padding: 0;
+}
+
+nav.sidebar li {
+  background-color: orange;
+  border: 2px solid #000;
+  color: #000;
   line-height: 1.6em;
+  margin: 5px 0;
+  padding: 0 5px;
+}
+
+nav.sidebar li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
 }
 
 /* Footer */
