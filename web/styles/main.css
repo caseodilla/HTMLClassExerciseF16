@@ -108,6 +108,10 @@ nav.topbar a.active {
   color: orange;
 }
 
+nav.topbar a:hover {
+  background-color: #666;
+}
+
 /* Vertical Nav Bar */
 
 nav.sidebar {
