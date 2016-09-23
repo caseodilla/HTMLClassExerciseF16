@@ -66,6 +66,7 @@ p {
 
 a {
   color: black;
+  font-weight: 700;
 }
 
 a:hover {
@@ -75,6 +76,7 @@ a:hover {
 /* Table */
 
 table {
+  margin-bottom: 15px;
 }
 
 caption {
@@ -96,6 +98,10 @@ td:last-child, th:last-child{
   background-color: #F5DEB3;
   text-align: right;
   padding-left: 15px;
+}
+
+td a {
+  font-weight: 100;
 }
 
 /* Horizontal Nav Bar */
