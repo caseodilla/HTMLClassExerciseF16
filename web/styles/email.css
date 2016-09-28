@@ -1,3 +1,8 @@
+/* 
+    Created on : Sep 26, 2016, 10:06:48 AM
+    Author     : chayes10
+*/
+
 /* Sitewide */
 
 * {
@@ -47,13 +52,12 @@ body {
   max-width: 800px;
 }
 
-h2, h3, h4 {
-  margin: 10px 0;
+main {
+  min-height: 180px;
 }
 
-h2::first-letter {
-  font-size: 1.8em;
-  font-weight: 700;
+h2, h3, h4 {
+  margin: 10px 0;
 }
 
 h3 {
@@ -139,6 +143,33 @@ a:hover {
   display: block;
   color: #000;
   text-decoration: none;
+}
+
+/* Form */
+
+section {
+  padding-left: 160px;
+}
+
+form label {
+  float: left;
+  text-align: right;
+  width: 100px;
+  margin-right: 20px;
+}
+
+form p {
+  margin: 5px;
+}
+
+form label + input {
+  width: 400px;
+}
+
+form #submit {
+  background-color: orange;
+  border: 1px solid #000;
+  margin-left: 120px;
 }
 
 /* Footer */

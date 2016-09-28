@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href='styles/normalize.css' rel='stylesheet'>
+  <link href='styles/email.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title> Halloween Store</title>
+</head>
+ 
+<body>
+  <header>
+    <a href="index.html"><img class="logo" src="images/pumpkin.gif" alt="Pumpkin"></a>
+    <h1 class="title">The Halloween Store</h1>
+    <h3>For the little Goblin in all of us!</h3>
+  </header>
+  
+  <main>
+    <nav id="topbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products/index.html">Products List</a></li>
+        <li><a href="">Personal</a></li>
+        <li><a href="">Decorating Ideas</a></li>
+        <li><a class="active" href="email.html">Join Email</a></li>
+      </ul>
+    </nav>
+    
+    <nav id="sidebar">
+        <ul>
+          <li><a href="products/props.html">Props</a></li>
+          <li><a href="products/costumes.html">Costumes</a></li>
+          <li><a href="products/sfx.html">Special Effects</a></li>
+          <li><a href="products/masks.html">Masks</a></li>
+        </ul>
+      </nav>
+    
+    <section>
+      <h2>Please enter the following information</h2>
+      <form action="subscribe.html" method="get">
+        <p><label>First name:</label><input name="firstName" type="text" title="Your first name" autofocus required /></p>
+        <p><label>Last name:</label><input name="lastName" type="text" title="Your last name" required /></p>
+        <p><label>Email:</label><input name="email" type="email" title="Your email address" required /></p>
+        <p><label>Zip Code:</label><input name="zip" type="text" pattern="^[0-9]{5}$" title="Your 5-digit zip code" placeholder="e.g. 27244" oninvalid="setCustomValidity('Zip must be a 5 digit number')" /></p>
+        <p><input type="submit" value="Subscribe" id="submit" /></p>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© Ben Murach</p>
+  </footer>
+</body>
+</html>
