@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <link href='styles/normalize.css' rel='stylesheet'>
-  <link href='styles/main.css' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <title> Halloween Store</title>
-</head>
- 
-<body>
-  <header>
-    <a href="index.html"><img class="logo" src="images/pumpkin.gif" alt="Pumpkin"></a>
-    <h1 class="title">The Halloween Store</h1>
-    <h3>For the little Goblin in all of us!</h3>
-  </header>
-  
-  <main>
-    <nav id="topbar">
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="products/index.html">Products List</a></li>
-        <li><a href="">Personal</a></li>
-        <li><a href="">Decorating Ideas</a></li>
-        <li><a href="email.html">Join Email</a></li>
-      </ul>
-    </nav>
-    
-    <nav id="sidebar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='styles/normalize.css' rel='stylesheet'>
+    <link href='styles/main_rwd.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
+      });
+    </script>
+    <title> Halloween Store</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img class="logo" src="images/pumpkin.gif" alt="Pumpkin"></a>
+      <h1 class="title">The Halloween Store</h1>
+      <h3>For the little Goblin in all of us!</h3>
+    </header>
+
+    <main>
+
+      <nav id="mobile_menu"></nav>
+      <nav id="nav_menu">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="products/index.html">Products List</a></li>
+          <li><a href="">Personal</a></li>
+          <li><a href="">Decorating Ideas</a></li>
+          <li class="lastitem"><a href="email.html">Join Email</a></li>         
+        </ul>
+      </nav>
+
+      <nav id="sidebar">
         <ul>
           <li><a href="products/props.html">Props</a></li>
           <li><a href="products/costumes.html">Costumes</a></li>
@@ -35,29 +46,38 @@
           <li><a href="products/masks.html">Masks</a></li>
         </ul>
       </nav>
-    
-    <article>
-      <h2>Welcome to my site.<br>Please come in and stay awhile.</h2>
-      <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
-      <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween</p>
 
-      <section>
-        <h3>Product of the Week</h3>
-        <a href="products/props/cat.html"><img src="images/cat1.jpg" alt="Deranged Cat"></a>
-        <p>
-          <a href="products/props/cat.html">20" Deranged Cat</a>
-        </p>
-      </section>
-      
-      <section>
-        <h3>My Guarantee</h3>
-        <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <strong>No questions asked!</strong></p>
-      </section>
-    </article>
-  </main>
-  
-  <footer>
-    <p>© Ben Murach</p>
-  </footer>
-</body>
+      <article>
+        <h2>Welcome to my site.<br>Please come in and stay awhile.</h2>
+        <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
+        <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween</p>
+
+        <section>
+          <h3>Product of the Week</h3>
+          <a href="products/props/cat.html"><img src="images/cat1.jpg" alt="Deranged Cat"></a>
+          <p>
+            <a href="products/props/cat.html">20" Deranged Cat</a>
+          </p>
+        </section>
+
+        <section>
+          <h3>My Guarantee</h3>
+          <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <strong>No questions asked!</strong></p>
+        </section>
+      </article>
+    </main>
+    
+    <nav id="bottombar">
+        <ul>
+          <li><a href="products/props.html">Props</a></li>
+          <li><a href="products/costumes.html">Costumes</a></li>
+          <li><a href="products/sfx.html">Special Effects</a></li>
+          <li><a href="products/masks.html">Masks</a></li>
+        </ul>
+      </nav>
+
+    <footer>
+      <p>© Ben Murach</p>
+    </footer>
+  </body>
 </html>
